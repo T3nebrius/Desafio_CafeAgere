@@ -1,0 +1,194 @@
+/* abstracts */
+/* base */
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.4/js/all.js");
+body, a {
+  font-family: "PT Mono", monospace;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* components */
+.boton {
+  width: 350px;
+  height: 45px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.inputsFormulario {
+  height: 40px;
+  width: 100%;
+  max-width: 340px;
+  margin-top: 12px;
+}
+
+/* layout */
+header {
+  display: flex;
+  align-content: center;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+header a {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.container {
+  display: flex;
+  position: relative;
+  width: 800px;
+  height: 600px;
+}
+
+.div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9, .div10 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.div1 {
+  width: 899px; /* Ancho del div */
+  height: 440px; /* Altura del div */
+  background-image: url("../../assets/img/img-1.png");
+  background-size: cover; /* Ajusta la imagen para cubrir todo el div */
+  background-position: center; /* Centra la imagen en el div */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.div2 {
+  /* 56.438rem x 27.5rem - 903px x 440px*/
+  width: 28.125rem;
+  height: 13.75rem;
+  background-image: url("../../assets/img/img-2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 440px;
+  left: 899px;
+}
+
+.div3 {
+  /* 27.5rem x 56.188rem - 440px x 899px*/
+  height: 8.125rem;
+  width: 6.25rem;
+  background-image: url("../../assets/img/img-3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 440px;
+  left: 840px;
+  z-index: 10;
+}
+
+.div4 {
+  /* 27.625rem x 56.188rem - 442px x 899px*/
+  width: 25.5rem;
+  height: 12rem;
+  background-image: url("../../assets/img/img-4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 460px;
+  left: 400px;
+  z-index: 10;
+}
+
+.div5 {
+  /* 27.625rem x 56.188rem - 442px x 899px*/
+  width: 29.31rem;
+  height: 12rem;
+  background-color: #3C91E6;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 440px;
+  left: 430px;
+}
+
+.div6 {
+  /* 27.625rem x 56.188rem - 442px x 899px*/
+  width: 10rem;
+  height: 10rem;
+  background-color: #eacb31;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 280px;
+  left: 899px;
+}
+
+.div7 {
+  /* 27.625rem x 56.188rem - 442px x 899px*/
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  width: 10rem;
+  height: 10rem;
+  background-color: #E4572E;
+  top: 260px;
+  left: 879px;
+}
+
+/* pages */
+/* themes */
+.boton1 {
+  background-color: #4CA866;
+  color: white;
+  border: none;
+}
+
+.boton2 {
+  background-color: white;
+  color: #EEEDED;
+  border: 0.1rem solid #EEEDED;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 1.4rem;
+}
+
+.justificado {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tituloPrincipal {
+  font-size: 25px;
+  font-weight: 800;
+  display: inline;
+  flex-grow: 1;
+}
+
+.texto_boton {
+  font-family: "PT Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* vendors */
+
+/*# sourceMappingURL=styles.css.map */

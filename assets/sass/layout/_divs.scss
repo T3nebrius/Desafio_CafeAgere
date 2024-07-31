@@ -1,0 +1,97 @@
+.container {
+    display: flex;
+    position: relative; 
+    width: 800px;
+    height: 600px;
+  }
+  
+  .div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9, .div10 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  
+  .div1 {
+    width: 899px;  /* Ancho del div */
+    height: 440px; /* Altura del div */
+    background-image: url("../../assets/img/img-1.png");
+    background-size: cover; /* Ajusta la imagen para cubrir todo el div */
+    background-position: center; /* Centra la imagen en el div */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+  }
+
+  .div2 {
+    /* 56.438rem x 27.5rem - 903px x 440px*/
+    width: 28.125rem;  
+    height: 13.75rem;
+    background-image: url("../../assets/img/img-2.png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    top: 440px; 
+    left: 899px; 
+  }
+
+  .div3 {
+    /* 27.5rem x 56.188rem - 440px x 899px*/
+    height: 8.125rem;  
+    width: 6.25rem;
+    background-image: url("../../assets/img/img-3.png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    top: 440px; 
+    left: 840px; 
+    z-index: 10;
+  }
+
+  .div4 {
+    /* 27.625rem x 56.188rem - 442px x 899px*/
+    width: 25.5rem;  
+    height: 12rem;
+    background-image: url("../../assets/img/img-4.png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    top: 460px; 
+    left: 400px; 
+    z-index: 10;
+  }
+
+  .div5 {
+    /* 27.625rem x 56.188rem - 442px x 899px*/
+    width: 29.31rem;  
+    height: 12rem;
+    background-color: $azul;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    top: 440px; 
+    left: 430px; 
+  }
+
+  .div6 {
+    /* 27.625rem x 56.188rem - 442px x 899px*/
+    width: 10rem;  
+    height: 10rem;
+    background-color: $coral;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    top: 280px; 
+    left: 899px; 
+  }
+
+  .div7 {
+    /* 27.625rem x 56.188rem - 442px x 899px*/
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 10rem;  
+    height: 10rem;
+    background-color: $flama;; 
+    top: 260px; 
+    left: 879px; 
+  }
+
+
