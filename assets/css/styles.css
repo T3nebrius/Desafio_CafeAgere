@@ -1,8 +1,9 @@
 /* abstracts */
+/*positions*/
+/* ... no more, i'm so leAzy */
 /* base */
 @import url("https://fonts.googleapis.com/css2?family=PT+Mono&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Mono&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://use.fontawesome.com/releases/v5.15.4/js/all.js");
 body, a {
   font-family: "PT Mono", monospace;
 }
@@ -30,10 +31,11 @@ time, mark, audio, video {
 
 /* components */
 .boton {
-  width: 350px;
-  height: 45px;
-  font-size: 16px;
+  width: 9.375rem; /* 150px */
+  height: 2.8125rem; /* 45px */
+  font-size: 1rem; /* 16px */
   font-weight: 500;
+  margin-right: 2rem;
 }
 
 .inputsFormulario {
@@ -59,8 +61,6 @@ header a {
 .container {
   display: flex;
   position: relative;
-  width: 800px;
-  height: 600px;
 }
 
 .div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9, .div10 {
@@ -70,86 +70,154 @@ header a {
 }
 
 .div1 {
-  width: 899px; /* Ancho del div */
-  height: 440px; /* Altura del div */
+  width: 56.188rem; /* 899px */
+  height: 27.5rem; /* 440px */
   background-image: url("../../assets/img/img-1.png");
-  background-size: cover; /* Ajusta la imagen para cubrir todo el div */
-  background-position: center; /* Centra la imagen en el div */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 0rem;
+  left: 0rem;
 }
 
 .div2 {
-  /* 56.438rem x 27.5rem - 903px x 440px*/
-  width: 28.125rem;
-  height: 13.75rem;
+  width: 28.125rem; /* 450px */
+  height: 13.75rem; /* 220px */
   background-image: url("../../assets/img/img-2.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  top: 440px;
-  left: 899px;
+  top: 27.5rem;
+  left: 56.188rem;
 }
 
 .div3 {
-  /* 27.5rem x 56.188rem - 440px x 899px*/
-  height: 8.125rem;
-  width: 6.25rem;
+  height: 8.125rem; /* 130px */
+  width: 6.25rem; /* 100px */
   background-image: url("../../assets/img/img-3.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  top: 440px;
-  left: 840px;
+  top: 27.5rem;
+  left: 52.5rem;
   z-index: 10;
 }
 
 .div4 {
-  /* 27.625rem x 56.188rem - 442px x 899px*/
-  width: 25.5rem;
-  height: 12rem;
+  width: 25.5rem; /* 408px */
+  height: 12rem; /* 192px */
   background-image: url("../../assets/img/img-4.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  top: 460px;
-  left: 400px;
+  top: 28.75rem; /* 460px */
+  left: 25rem; /* 400px */
   z-index: 10;
 }
 
 .div5 {
-  /* 27.625rem x 56.188rem - 442px x 899px*/
-  width: 29.31rem;
-  height: 12rem;
+  width: 29.31rem; /* 468.96px */
+  height: 12rem; /* 192px */
   background-color: #3C91E6;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  top: 440px;
-  left: 430px;
+  top: 27.5rem; /* 440px */
+  left: 26.875rem; /* 430px */
 }
 
 .div6 {
-  /* 27.625rem x 56.188rem - 442px x 899px*/
-  width: 10rem;
-  height: 10rem;
+  width: 10rem; /* 160px */
+  height: 10rem; /* 160px */
   background-color: #eacb31;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  top: 280px;
-  left: 899px;
+  top: 17.5rem; /* 280px */
+  left: 56.188rem; /* 899px */
 }
 
 .div7 {
-  /* 27.625rem x 56.188rem - 442px x 899px*/
   align-items: center;
   align-content: center;
   text-align: center;
-  width: 10rem;
-  height: 10rem;
+  width: 10rem; /* 160px */
+  height: 10rem; /* 160px */
   background-color: #E4572E;
-  top: 260px;
-  left: 879px;
+  top: 16.25rem; /* 260px */
+  left: 54.938rem; /* 879px */
+  z-index: 20;
+}
+
+.div8 {
+  align-items: center;
+  align-content: center;
+  text-align: left;
+  width: 11rem; /* 176px */
+  height: 11rem; /* 176px */
+  top: 7.5rem; /* 120px */
+  left: 61.25rem; /* 980px */
+  font-family: "PT Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+}
+.div8 h1 {
+  font-size: 5rem; /* 80px */
+}
+.div8 h2 {
+  font-size: 1.5rem; /* 24px */
+}
+
+.div9 {
+  background-color: white;
+  width: 29.31rem; /* 468.96px */
+  height: 6.8rem; /* 108.8px */
+  font-family: "PT Mono", monospace;
+  font-weight: 500;
+  top: 27.5rem; /* 440px */
+  left: 26.875rem; /* 430px */
+  z-index: 9;
+}
+.div9 .stats {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  margin: 1.25rem 1.25rem; /* 20px */
+  font-family: "PT Mono", monospace;
+}
+.div9 .stats__item {
+  font-size: 1rem;
+  color: #333;
+}
+.div9 .stats__item-value {
+  font-size: 2.2rem; /* 35.2px */
+  font-weight: bold;
+  margin-bottom: 0.625rem; /* 10px */
+}
+.div9 .stats__item-description {
+  font-size: 0.8rem; /* 12.8px */
+  color: #666;
+}
+
+.div10 {
+  align-items: center;
+  align-content: center;
+  text-align: left;
+  width: 16rem; /* 256px */
+  height: 11rem; /* 176px */
+  top: 36.875rem; /* 590px */
+  left: 6.25rem; /* 100px */
+  font-family: "PT Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+}
+.div10 h1 {
+  font-size: 1.5625rem; /* 25px */
+  font-weight: bold;
+  margin-bottom: 0.625rem; /* 10px */
+}
+.div10 p {
+  font-size: 0.875rem; /* 14px */
 }
 
 /* pages */
@@ -162,8 +230,8 @@ header a {
 
 .boton2 {
   background-color: white;
-  color: #EEEDED;
-  border: 0.1rem solid #EEEDED;
+  color: gray;
+  border: 0.1rem solid gray;
 }
 
 .logo {
@@ -173,7 +241,26 @@ header a {
 
 .justificado {
   display: flex;
+  width: 80%;
   justify-content: space-around;
+}
+
+.div_botones {
+  width: 30rem;
+  text-align: right;
+  justify-content: space-around;
+}
+
+.div_links {
+  display: flex;
+  text-align: left;
+  height: 2.8125rem; /* 45px */
+  align-items: center;
+  align-content: center;
+}
+.div_links a {
+  color: gray;
+  text-decoration: none;
 }
 
 .tituloPrincipal {
